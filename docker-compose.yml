@@ -74,7 +74,6 @@ services:
         - NEXT_PUBLIC_LOGIN_WITH_GOOGLE=${NEXT_PUBLIC_LOGIN_WITH_GOOGLE:-no}
         - NEXT_PUBLIC_REACT_SENTRY_DSN=${NEXT_PUBLIC_REACT_SENTRY_DSN:-no}
         - NEXT_PUBLIC_USE_FIREBASE=${NEXT_PUBLIC_USE_FIREBASE:-false}
-        - NEXT_PUBLIC_VERSION=${NEXT_PUBLIC_VERSION}
     pull_policy: ${PULL_POLICY:-always}
     restart: always
     container_name: client
